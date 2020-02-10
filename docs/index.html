@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ATD demo</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./atd.css">
+
+    <style media="screen">
+      body {
+        background-color: #004643;
+        color: #fffffe;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        overflow-x: hidden;
+
+        --atd-white: white;
+        --atd-black: black;
+        --atd-red: #D0021B;
+        --atd-green: #4E8E07;
+        --atd-blue: #3080DE;
+        --atd-yellow: #D9C906;
+        --atd-zindex: -1;
+      }
+      div {
+        margin-top: 4em;
+      }
+      h1{
+        background-color: #f9bc60; color: #001e1d; padding: 0.5em; display: inline-block; margin-top: 3em;
+      }
+      h3 {
+        color: #abd1c6;
+      }
+      span {
+        color: #e16162;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>atd-data</h1>
+
+    <div>
+      <h2 atd-data="backliner" atd-option-color="yellow">Backliner</h2>
+      <h3>atd-data="<span>backliner</span>"</h3>
+    </div>
+
+    <div>
+      <h2 atd-data="half-backliner" atd-option-textcolor="black" atd-option-color="green">Half backliner</h2>
+      <h3>atd-data="<span>half-backliner</span>"</h3>
+    </div>
+
+    <div>
+      <h2 atd-data="overliner" atd-option-color="white">Overliner</h2>
+      <h3>atd-data="<span>overliner</span>"</h3>
+    </div>
+
+    <div>
+      <h2 atd-data="underliner" atd-option-color="black">Underliner</h2>
+      <h3>atd-data="<span>underliner</span>"</h3>
+    </div>
+
+    <h1>atd-option-color</h1>
+
+    <div>
+      <h2 atd-data="backliner" atd-option-color="green">Some words here.</h2>
+      <h3>atd-option-color="<span>green</span>"</h3>
+    </div>
+
+    <h1>atd-option-anchor</h1>
+
+    <div>
+      <h2 atd-data="backliner" atd-option-color="green" atd-option-anchor="right">Some words here.</h2>
+      <h3>atd-option-anchor="<span>right</span>"</h3>
+    </div>
+
+    <div>
+      <h2 atd-data="backliner" atd-option-color="green" atd-option-anchor="center">Some words here.</h2>
+      <h3>atd-option-anchor="<span>center</span>"</h3>
+    </div>
+
+    <h1>atd-option-ending</h1>
+
+    <div>
+      <h2 atd-data="backliner" atd-option-color="green" atd-option-ending="left">Some words here.</h2>
+      <h3>atd-option-ending="<span>left</span>"</h3>
+    </div>
+
+    <div>
+      <h2 atd-data="backliner" atd-option-color="green" atd-option-anchor="right" atd-option-ending="right">Some words here.</h2>
+      <h3>atd-option-anchor="<span>right</span>" + atd-option-ending="<span>right</span>"</h3>
+    </div>
+
+    <h1>atd-option-wbegin</h1>
+
+    <div>
+      <h2 atd-data="underliner" atd-option-color="white" atd-option-wbegin="30">Some words here.</h2>
+      <h3>atd-option-wbegin="<span>30</span>"</h3>
+    </div>
+
+  </body>
+</html>
