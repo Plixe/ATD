@@ -67,7 +67,7 @@ You can add some extra options:
 You can change the color of the ATD
 
 ```html
-<h1 atd-data="underliner" atd-option-color="white">Hello world</h1>
+<h1 atd-data="underliner" atd-color="white">Hello world</h1>
 ```
 
 *But you have to define variable in your master css file. *Futures version will have best method*
@@ -99,7 +99,7 @@ All colors can be defined :
 Anchor option change the begening point of the ATD:
 
 ```html
-<h1 atd-data="underliner" atd-option-color="white" atd-option-anchor="left">Hello world</h1>
+<h1 atd-data="underliner" atd-color="white" atd-anchor="left">Hello world</h1>
 ```
 
 All anchors :
@@ -112,7 +112,7 @@ All anchors :
 With this option, ATD begin at choosen percent.
 
 ```html
-<h1 atd-data="underliner" atd-option-color="white" atd-option-wbegin="30">Hello world</h1>
+<h1 atd-data="underliner" atd-color="white" atd-wbegin="30">Hello world</h1>
 ```
 
 All states :
