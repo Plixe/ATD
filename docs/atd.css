@@ -6,7 +6,7 @@ body {
 }
 
 [atd-data] {
-  overflow-x: hidden;
+  overflow: hidden;
 
   position: relative;
   display: inline-block;
@@ -198,7 +198,7 @@ body {
 }
 
 [atd-data][atd-color="orange"]::before {
-  background-color: var(--atd-yellow);
+  background-color: var(--atd-orange);
 }
 
 [atd-data][atd-color="custom1"]::before {
