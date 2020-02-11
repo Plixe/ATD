@@ -50,8 +50,6 @@ All datas :
 * `overliner`
 * `underliner`
 
-***Notice the atd-data display is in inline-block with a relative position.***
-
 ### ATD-OPTION
 
 You can add some extra options:
@@ -64,7 +62,7 @@ You can change the color of the ATD
 <h1 atd-data="underliner" atd-option-color="white">Hello world</h1>
 ```
 
-But you have to define variable in your master css file. *Futures version will have best method*
+*But you have to define variable in your master css file. *Futures version will have best method*
 
 ```css
 
@@ -83,6 +81,7 @@ All colors can be defined :
 * `green`
 * `blue`
 * `yellow`
+* `orange`
 * `custom1`
 * `custom2`
 * `custom3`
