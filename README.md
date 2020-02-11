@@ -1,9 +1,17 @@
 # ATD
-Animated Text's Decorations is a ***CSS Library*** who adding small animations on text. ***Sorry for my bad english, if you found some mistakes or error thanks to open an Issue***
+Animated Text's Decorations is a ***CSS Library*** who adding small animations on text. ***Sorry for my bad english, if you found some mistakes or error thanks to open an Issue ticket***
 
 ## Demo
 
 You can try it [here](https://plixe.github.io/ATD/)
+
+## TO-DO
+
+* Increase esthetic of demo page !
+* Automation with JS !
+* Documentation translations !
+
+If you have any idea it'll be a pleasure to add it to the TO-DO list ! 
 
 ## Getting Started
 
