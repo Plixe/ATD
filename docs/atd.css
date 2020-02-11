@@ -6,7 +6,7 @@ body {
 }
 
 [atd-data] {
-  overflow: hidden;
+  overflow-x: hidden;
 
   position: relative;
   display: inline-block;
@@ -96,119 +96,119 @@ body {
 
 /* anchor */
 
-[atd-data][atd-option-anchor="left"]::before {
+[atd-data][atd-anchor="left"]::before {
   left: 0;
 }
 
 
-[atd-data][atd-option-anchor="left"]:hover::before {
+[atd-data][atd-anchor="left"]:hover::before {
   left: 0;
 }
 
-[atd-data][atd-option-anchor="center"]::before {
+[atd-data][atd-anchor="center"]::before {
   left: 50%;
 }
 
 
-[atd-data][atd-option-anchor="center"]:hover::before {
+[atd-data][atd-anchor="center"]:hover::before {
   left: 0;
 }
 
-[atd-data][atd-option-anchor="right"]::before {
+[atd-data][atd-anchor="right"]::before {
   right: 0;
 }
 
 
-[atd-data][atd-option-anchor="right"]:hover::before {
+[atd-data][atd-anchor="right"]:hover::before {
   right: 0;
 }
 
 /* ending */
 
-[atd-data][atd-option-ending="left"]::before {
+[atd-data][atd-ending="left"]::before {
   transform: translateX(0);
 
   transition: 1000ms var(--atd_cb);
 }
 
-[atd-data][atd-option-ending="left"]:hover::before {
+[atd-data][atd-ending="left"]:hover::before {
   transform: translateX(100%);
 }
 
-[atd-data][atd-option-ending="right"]::before {
+[atd-data][atd-ending="right"]::before {
   transform: translateX(0);
 
   transition: 1000ms var(--atd_cb);
 }
 
-[atd-data][atd-option-ending="right"]:hover::before {
+[atd-data][atd-ending="right"]:hover::before {
   transform: translateX(-100%);
 }
 
 /* begin */
 
-[atd-data][atd-option-wbegin="10"]::before {
+[atd-data][atd-wbegin="10"]::before {
   width: 10%;
 }
 
-[atd-data][atd-option-wbegin="10"]:hover::before {
+[atd-data][atd-wbegin="10"]:hover::before {
   width: 100%;
 }
 
-[atd-data][atd-option-wbegin="30"]::before {
+[atd-data][atd-wbegin="30"]::before {
   width: 30%;
 }
 
-[atd-data][atd-option-wbegin="30"]:hover::before {
+[atd-data][atd-wbegin="30"]:hover::before {
   width: 100%;
 }
 
-[atd-data][atd-option-wbegin="50"]::before {
+[atd-data][atd-wbegin="50"]::before {
   width: 50%;
 }
 
-[atd-data][atd-option-wbegin="50"]:hover::before {
+[atd-data][atd-wbegin="50"]:hover::before {
   width: 100%;
 }
 
 /* colors */
 
-[atd-data][atd-option-color="white"]::before {
+[atd-data][atd-color="white"]::before {
   background-color: var(--atd-white);
 }
 
-[atd-data][atd-option-color="black"]::before {
+[atd-data][atd-color="black"]::before {
   background-color: var(--atd-black);
 }
 
-[atd-data][atd-option-color="red"]::before {
+[atd-data][atd-color="red"]::before {
   background-color: var(--atd-red);
 }
 
-[atd-data][atd-option-color="green"]::before {
+[atd-data][atd-color="green"]::before {
   background-color: var(--atd-green);
 }
 
-[atd-data][atd-option-color="blue"]::before {
+[atd-data][atd-color="blue"]::before {
   background-color: var(--atd-blue);
 }
 
-[atd-data][atd-option-color="yellow"]::before {
+[atd-data][atd-color="yellow"]::before {
   background-color: var(--atd-yellow);
 }
 
-[atd-data][atd-option-color="orange"]::before {
+[atd-data][atd-color="orange"]::before {
   background-color: var(--atd-yellow);
 }
 
-[atd-data][atd-option-color="custom1"]::before {
+[atd-data][atd-color="custom1"]::before {
   background-color: var(--atd-custom1);
 }
 
-[atd-data][atd-option-color="custom2"]::before {
+[atd-data][atd-color="custom2"]::before {
   background-color: var(--atd-custom2);
 }
 
-[atd-data][atd-option-color="custom3"]::before {
+[atd-data][atd-color="custom3"]::before {
   background-color: var(--atd-custom3);
 }
