@@ -37,7 +37,7 @@ the last version.
 ```html
 <head>
 
- <link href="https://raw.githack.com/Plixe/ATD/master/docs/atd.css" rel="stylesheet">
+ <link href="https://raw.githack.com/Plixe/ATD/master/dist/atd.css" rel="stylesheet">
 
 </head>
 ```
